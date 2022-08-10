@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 .ramen-ratings.csv
+.WA_Fn-UseC_-HR-Employee-Attrition.csv
+.HR-Employee-Attrition.csv
+.IBM_HR_CleanedModel.csv
