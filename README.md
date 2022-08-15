@@ -8,7 +8,8 @@ These are the columns: EIN, Name, Application Type, Classification, Use Case, Or
 ## D1: Preprocessing 
 First, we read in our CSV, and observed our column names: 
 
-We decided the "X" and the "Y" columns to be the target and features for our model, respectively. 
+We decided the "Is Successful" and the "application type", "affiliation", "classification", "use case", "organization", "status", "income", "special considerations", and "ask amt" columns to be the target and features for our model, respectively. 
+
 We then dropped the "EIN" and "Name" columns, as these identification columns provide no value to our model and are confidential: 
 
 We also checked for the number of unique values, with the intention of finding any column with 10+ and made our density plot: 
