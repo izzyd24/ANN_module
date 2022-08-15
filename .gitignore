@@ -128,7 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.ramen-ratings.csv
-.WA_Fn-UseC_-HR-Employee-Attrition.csv
-.HR-Employee-Attrition.csv
-.IBM_HR_CleanedModel.csv
+Module Work/.ramen-ratings.csv
+Module Work/.WA_Fn-UseC_-HR-Employee-Attrition.csv
+Module Work/.HR-Employee-Attrition.csv
+Module Work/.IBM_HR_CleanedModel.csv
+.charity_data.csv 
