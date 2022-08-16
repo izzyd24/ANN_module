@@ -40,6 +40,7 @@ Compile and train the model:
 
 Evaluate the model using test data to find the loss and accuracy scores: 
 
+Lastly, we save our model's weights after every 5 epochs with a simple "nn.save"
 
 ## D3: Optimization
 
