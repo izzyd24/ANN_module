@@ -26,6 +26,20 @@ Finally, we standardized the numerical values with "StandardScaler" to scale our
 
 This is a great start, but we are now ready to train the model! 
 ## D2: Compile, Train, Evaluate 
+In this step, we need to design a deep learning model/neural network. We will leverage a binary classification model to predict if a funded firm from the above will be successful based on the features from our dataset. 
+
+We need to balance how many inputs to use before checking on the number of neurons and layers for the model. 
+
+First we create the model by assigning input features and nodes for each layer with "keras":
+
+Then, we create our first hidden layer:
+
+We create an output layer and check on the structure of our model:
+
+Compile and train the model:
+
+Evaluate the model using test data to find the loss and accuracy scores: 
+
 
 ## D3: Optimization
 
