@@ -43,5 +43,34 @@ Evaluate the model using test data to find the loss and accuracy scores:
 Lastly, we save our model's weights after every 5 epochs with a simple "nn.save"
 
 ## D3: Optimization
+## Initial Model: 
+A quick note on where we left off at the tail-end of our analysis in "D2"---
+We achieved 72% accuracy, just shy of the 75%+ mark we are aiming for. This is following the combination of 100 epochs run + our split on input vs hidden layers at 80 and 52, respectively. 
+
+## Adjustement One: Increase Epochs
+By simply increasing to 300 epochs, we achieved a 72.5% accuracy score. It can be argued that runtime is an issue, and we should consider dropping certain columns, creating more bins, or increasing/decreasing the number of values in each bin. 
+
+## Other Approaches: 
+Another approach would be to add more neurons to the hidden layer, add another hidden layer alotogther, or use a different activation function (previously set as relu)
+
+## Adjustement Two: Change activation function from Relu to...
+Here, we replaced the "Relu" activation from our hidden layer to the "Tanh" in hopes of increasing the percentage on model accuracy. 
+
+### Tanh Hidden Layer, 500 Epochs Results:
+A slightly more aggressive approach, with less concern on runtime:
+
+## Adjustement Three: Add a new hidden layer, Relu
+Here, we are reverting back to the "relu" activation model after sub-par results with our Tanh model. Instead, we will try to add another hidden layer: 
+
+### Extra Hidden Layer, 300 Epochs Results: 
+We were able to reach 72.6%. 
+
+## Last approach (before consulting with TAs/Classmates): 
+In this final approach, I will only drop the "EIN", "NAME", and "X" column.
+
+We are testing for an increase in model accuracy, but may need to look at our dataframe more closely to determine if our inputs are meaningful.
+
+### Results: 
+We reached X%!
 
 
