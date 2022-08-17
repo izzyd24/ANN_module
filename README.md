@@ -71,6 +71,6 @@ In this final approach, I will only drop the "EIN", "NAME", and "X" column.
 We are testing for an increase in model accuracy, but may need to look at our dataframe more closely to determine if our inputs are meaningful.
 
 ### Results: 
-We reached X%!
+We reached 73.5%. We are content with these results, but plan on coming back to break the 75% threshold.
 
 
